@@ -5,6 +5,9 @@ ruby "3.3.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
+#rails admin
+gem 'rails_admin', '~> 3.0'
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
@@ -55,3 +58,5 @@ gem "omniauth-rails_csrf_protection"
 gem "rack-cors", "~> 2.0"
 
 gem 'sendgrid-ruby'
+
+gem "sassc-rails"
